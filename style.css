@@ -1,0 +1,35 @@
+cd *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    height: 100vh;
+    width: 100%;
+    background-color: rosybrown;
+    text-align: center;
+  
+}
+.clock {
+    display: flex;
+    justify-content: center;
+
+}
+.box {
+    height: 150px;
+    width: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 60px;
+}
+.timer {
+    display: flex;justify-content: center;
+    
+}
+
+button {
+    padding: 15px 20px;
+    
+}
